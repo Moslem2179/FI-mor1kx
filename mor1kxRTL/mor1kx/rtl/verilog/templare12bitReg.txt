@@ -1,0 +1,153 @@
+if (FIbit == 130) begin
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+	assign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[0] =  ~ orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[0];
+        ///#5 /// cycle
+	$fwrite(fiLog,"@%d, Fault is injected on orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[0].\n", $time);
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+        deassign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[0];
+faultIsInjected=0;
+	#1000
+	assign  orpsoc_tb.i_monitor.TRACE_ENABLE =1'b0;
+end
+
+
+if (FIbit == 131) begin
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+	assign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[1] =  ~ orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[1];
+        ///#5 /// cycle
+	$fwrite(fiLog,"@%d, Fault is injected on orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[1].\n", $time);
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+        deassign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[1];
+faultIsInjected=0;
+	#1000
+	assign  orpsoc_tb.i_monitor.TRACE_ENABLE =1'b0;
+end
+
+
+if (FIbit == 132) begin
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+	assign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[2] =  ~ orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[2];
+        ///#5 /// cycle
+	$fwrite(fiLog,"@%d, Fault is injected on orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[2].\n", $time);
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+        deassign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[2];
+faultIsInjected=0;
+	#1000
+	assign  orpsoc_tb.i_monitor.TRACE_ENABLE =1'b0;
+end
+
+
+if (FIbit == 133) begin
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+	assign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[3] =  ~ orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[3];
+        ///#5 /// cycle
+	$fwrite(fiLog,"@%d, Fault is injected on orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[3].\n", $time);
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+        deassign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[3];
+faultIsInjected=0;
+	#1000
+	assign  orpsoc_tb.i_monitor.TRACE_ENABLE =1'b0;
+end
+
+if (FIbit == 134) begin
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+	assign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[4] =  ~ orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[4];
+        ///#5 /// cycle
+	$fwrite(fiLog,"@%d, Fault is injected on orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[4].\n", $time);
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+        deassign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[4];
+faultIsInjected=0;
+	#1000
+	assign  orpsoc_tb.i_monitor.TRACE_ENABLE =1'b0;
+end
+
+if (FIbit == 135) begin
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+	assign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[5] =  ~ orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[5];
+        ///#5 /// cycle
+	$fwrite(fiLog,"@%d, Fault is injected on orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[5].\n", $time);
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+        deassign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[5];
+faultIsInjected=0;
+	#1000
+	assign  orpsoc_tb.i_monitor.TRACE_ENABLE =1'b0;
+end
+
+if (FIbit == 136) begin
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+	assign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[6] =  ~ orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[6];
+        ///#5 /// cycle
+	$fwrite(fiLog,"@%d, Fault is injected on orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[6].\n", $time);
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+        deassign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[6];
+faultIsInjected=0;
+	#1000
+	assign  orpsoc_tb.i_monitor.TRACE_ENABLE =1'b0;
+end
+
+
+if (FIbit == 137) begin
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+	assign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[7] =  ~ orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[7];
+        ///#5 /// cycle
+	$fwrite(fiLog,"@%d, Fault is injected on orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[7].\n", $time);
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+        deassign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[7];
+faultIsInjected=0;
+	#1000
+	assign  orpsoc_tb.i_monitor.TRACE_ENABLE =1'b0;
+end
+
+if (FIbit == 138) begin
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+	assign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[8] =  ~ orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[8];
+        ///#5 /// cycle
+	$fwrite(fiLog,"@%d, Fault is injected on orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[8].\n", $time);
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+        deassign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[8];
+faultIsInjected=0;
+	#1000
+	assign  orpsoc_tb.i_monitor.TRACE_ENABLE =1'b0;
+end
+
+if (FIbit == 139) begin
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+	assign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[9] =  ~ orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[9];
+        ///#5 /// cycle
+	$fwrite(fiLog,"@%d, Fault is injected on orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[9].\n", $time);
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+        deassign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[9];
+faultIsInjected=0;
+	#1000
+	assign  orpsoc_tb.i_monitor.TRACE_ENABLE =1'b0;
+end
+
+
+if (FIbit == 140) begin
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+	assign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[10] =  ~ orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[10];
+        ///#5 /// cycle
+	$fwrite(fiLog,"@%d, Fault is injected on orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[10].\n", $time);
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+        deassign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[10];
+faultIsInjected=0;
+	#1000
+	assign  orpsoc_tb.i_monitor.TRACE_ENABLE =1'b0;
+end
+
+if (FIbit == 141) begin
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+	assign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[11] =  ~ orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[11];
+        ///#5 /// cycle
+	$fwrite(fiLog,"@%d, Fault is injected on orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[11].\n", $time);
+@(posedge orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_fetch_cappuccino.clk)
+        deassign orpsoc_tb.dut.mor1kx0.mor1kx_cpu.cappuccino.mor1kx_cpu.mor1kx_ctrl_cappuccino.spr_fpcsr[11];
+faultIsInjected=0;
+	#1000
+	assign  orpsoc_tb.i_monitor.TRACE_ENABLE =1'b0;
+end
+
+
+
+
+
